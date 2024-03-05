@@ -1,0 +1,13 @@
+More on boolean expressions, let's think of a "real life example" where we need to find out if a person is old enough to vote. In the example below, we use the >= comparison operator to find out if the age (25) is >= voting age limit, which is set to 18.
+Example:
+int myAge = 25, votingAge = 18;
+System.out.println(myAge >= votingAge);
+
+An even better approach, is to use if...else statement, so we can perform different actions depending on the result. Output "Old enough." if myAge is >= 18. Otherwise  "Not old.":
+
+int myAge = 25, votingAge = 18;
+if (myAge >= votingAge) {
+  System.out.println("Old enough.");
+} else {
+  System.out.println("Not old.");
+}

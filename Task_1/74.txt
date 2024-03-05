@@ -1,0 +1,25 @@
+This statement accesses the value of the first element in cars:
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+System.out.println(cars[0]);
+// the output is Volvo
+
+Note: Array indexes start with 0: [0] is the first element. [1] is the second element, etc.
+
+Change an Array Element
+To change the value of a specific element, refer to the index number:
+
+Example
+cars[0] = "Opel";
+Example
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+cars[0] = "Opel";
+System.out.println(cars[0]);
+// Now outputs Opel instead of Volvo
+
+Array Length
+To find out how many elements an array has, use the length property:
+
+Example
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+System.out.println(cars.length);
+// Outputs 4

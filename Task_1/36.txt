@@ -1,0 +1,9 @@
+Java Data Types: as we mentioned before a variable in java must be of specified data type. Take the following example:
+int myNum = 5;               // Integer (whole number)
+double myDouble = 3.14;      // Double number (with decimal)
+float myFloatNum = 5.99f;    // Floating point number
+char myLetter = 'D';         // Character
+boolean myBool = true;       // Boolean (true / false)
+String myText = "Hello";     // String (text)
+
+Data types are divided into two groups, the first group is the primitive data types, and the second is non-primitive data types. Primitive data types such as byte, short, int, long, float, double, boolean and char. Non-primitive data types such as String, Arrays and Classes.

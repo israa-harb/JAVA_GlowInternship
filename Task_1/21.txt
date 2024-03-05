@@ -1,0 +1,24 @@
+How is memory allocated to different function calls in recursion?
+When function is called from main(), memory is allocated to it on the stack. A recursive function calls itself, the memory for the called function is allocated on top of memory allocated to the calling function, each function call generates a unique copy of local variables.. The function returns its value to the function it is called on, de-allocating memory, and continues.
+class GFG {
+    static void printFun(int test)
+    {
+        if (test < 1)
+            return;
+ 
+        else {
+            System.out.printf("%d ", test);
+ 
+            printFun(test - 1);
+ 
+            System.out.printf("%d ", test);
+            return;
+        }
+    }
+ 
+    public static void main(String[] args)
+    {
+        int test = 3;
+        printFun(test);
+    }
+}

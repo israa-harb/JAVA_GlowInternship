@@ -1,0 +1,15 @@
+You can also declare a variable without assigning the value, and assign the value later, for example:
+int myNum;
+myNum = 15;
+System.out.println(myNum);
+
+Note that if you assign a new value to an existing variable, it will overwrite the previous value. Example:
+Change the value of myNum from 15 to 20:
+int myNum = 15;
+myNum = 20;  // myNum is now 20
+System.out.println(myNum);
+
+If you don't want others (or yourself) to overwrite existing values, use the final keyword (this will declare the variable as "final" or "constant", which means unchangeable and read-only):
+final int myNum = 15;
+myNum = 20;  // will generate an error (final)
+

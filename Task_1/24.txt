@@ -1,0 +1,26 @@
+More on recursion in java, we ask the following question: What is the difference between direct and indirect recursion?
+A function fun is called a direct recursive if it calls the same function fun. A function fun is called an indirect recursive if it calls another function let's say fun_new and fun_new calls fun directly or indirectly. The difference between direct and indirect recursion can be concluded from the following example:
+
+First is Direct recursion:
+
+void directRecFun()
+{
+    // Some code....
+    directRecFun();
+    // Some code...
+}
+Second is Indirect recursion:
+
+void indirectRecFun1()
+{
+    // Some code...
+    indirectRecFun2();
+    // Some code...
+}
+
+void indirectRecFun2()
+{
+    // Some code...
+    indirectRecFun1();
+    // Some code...
+}

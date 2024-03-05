@@ -1,0 +1,2 @@
+8. Shift Operators: are used to shift bits of number left or right, thereby multiplying or dividing number by two. They are used when we have to multiply or divide a number by two.
+The left shift operator moves bits of number to left and fills voids with 0, similar to multiplying by a power of two. The signed right shift operator moves bits to right and fills voids with 0, with leftmost bit depending on sign of the initial number. The unsigned right shift operator also moves bits to right and fills voids with 0, setting leftmost bit  0.

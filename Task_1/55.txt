@@ -1,0 +1,36 @@
+Types of Operators in Java: there are multiple types of operators in Java all are mentioned below:
+Arithmetic Operators
+Unary Operators
+Assignment Operator
+Relational Operators
+Logical Operators
+Ternary Operator
+Bitwise Operators
+Shift Operators
+instance of operator
+
+1. Arithmetic Operators: they are used to perform simple arithmetic operations on primitive data types. 
+* : Multiplication
+/ : Division
+% : Modulo
++ : Addition
+– : Subtraction
+
+// Arithmetic Operators
+import java.io.*;
+class GFG {
+      // Main Function
+    public static void main (String[] args) {
+           
+        // Arithmetic operators
+        int a = 10;
+        int b = 3;
+       
+        System.out.println("a + b = " + (a + b));
+        System.out.println("a - b = " + (a - b));
+        System.out.println("a * b = " + (a * b));
+        System.out.println("a / b = " + (a / b));
+        System.out.println("a % b = " + (a % b));
+           
+    }
+}

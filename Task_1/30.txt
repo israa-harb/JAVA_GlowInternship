@@ -1,0 +1,6 @@
+As for the java variables, basically variables are containers for storing data. Java variable is a name given to a memory location. In Java, we have many different types of variables, mentioned below:
+String - stores text, such as "Hello". String values are surrounded by double quotes.
+int - stores integers (whole numbers), without decimals, such as 123 or -123
+float - stores floating point numbers, with decimals, such as 19.99 or -19.99
+char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
+boolean - stores values with two states: true or false.

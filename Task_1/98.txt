@@ -1,0 +1,6 @@
+Java HashSet:  HashSet is a collection of items where every item is unique, and it is found in the java.util package:
+Create a HashSet object called cars that will store strings:
+import java.util.HashSet; // Import the HashSet class
+HashSet<String> cars = new HashSet<String>();
+Java Iterator: an Iterator is an object that can be used to loop through collections, like ArrayList and HashSet. It is called an "iterator" because "iterating" is the technical term for looping. To use an Iterator, you must import it from the java.util package.
+Java Wrapper Classes: provide a way to use primitive data types (int, boolean, ...) as objects.

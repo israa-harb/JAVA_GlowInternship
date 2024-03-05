@@ -1,0 +1,23 @@
+More on attributes, we have the final keyword is useful when you want a variable to always store the same value, like PI . Attributes cannot be overridden/modified when final is used, for example: 
+public class Main {
+  final int x = 10;
+
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    myObj.x = 25; // generates an error, cannot assign a value to a final variable
+    System.out.println(myObj.x);
+  }
+}
+
+You can specify as many attributes as you want, for example
+public class Main {
+  String fname = "John";
+  String lname = "Doe";
+  int age = 24;
+
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    System.out.println("Name: " + myObj.fname + " " + myObj.lname);
+    System.out.println("Age: " + myObj.age);
+  }
+}

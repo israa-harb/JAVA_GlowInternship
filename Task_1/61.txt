@@ -1,0 +1,7 @@
+4. Relational Operators are used to check for relations like equality, greater than, and less than. They return boolean results after the comparison. 
+==, Equal returns true if both sides are equal.
+!=, Not Equal returns true if both sides arent equal.
+<, less than: returns true if left-hand side is less than right-hand side.
+<=, less than or equal to returns true if left-hand side is less than or equal to the right-hand side.
+>, Greater than: returns true if left-hand side is greater than right-hand side.
+>=, Greater than or equal to returns true if left-hand side is greater than or equal right-hand side.

@@ -1,0 +1,5 @@
+The advantages of recursive programs are as follows:
+Recursion provides a clean and simple way to write code. Some problems are inherently recursive like tree traversals, Tower of Hanoi, etc. For such problems, it is preferred to write recursive code.The disadvantages of recursive programs is as follows:
+The recursive program has greater space requirements than the iterative program as all functions will remain in the stack until the base case is reached.
+It also has greater time requirements because of function calls and returns overhead.
+We note: every recursive program can be written iteratively and vice versa is also true.

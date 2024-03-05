@@ -1,0 +1,12 @@
+Continueing on parameters, we can have as many parameters as you like, but the method call must have the same number of arguments as there are parameters, and the arguments must be passed in the same order.
+Moving on, return values are used to specify what the function is returning. Void is used when the method doesnt return a value. If you want the method to return a value, we use a primitive data type like int, char, etc., plus return Example:
+public class Main {
+  static int myMethod(int x) {
+    return 5 + x;
+  }
+
+  public static void main(String[] args) {
+    System.out.println(myMethod(3));
+  }
+}
+// Output: 8

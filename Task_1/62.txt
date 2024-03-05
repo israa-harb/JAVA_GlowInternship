@@ -1,0 +1,5 @@
+5. Logical Operators are used to perform “logical AND” and “logical OR” operations, i.e., a function similar to AND gate and OR gate in digital electronics. One thing to keep in mind is the second condition is not evaluated if the first one is false. Used to test for conditions for making a decision. Java has “Logical NOT”, which returns true when condition is false and vice-versa.
+Conditional operators:
+&&, Logical AND: returns true when both conditions are true.
+||, Logical OR: returns true if at least one condition is true.
+!, Logical NOT: returns true when a condition is false and vice-versa

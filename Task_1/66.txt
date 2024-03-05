@@ -1,0 +1,20 @@
+String Concatenation: the + operator can be used between strings to combine them. This is called concatenation.
+Example:
+String firstName = "John";
+String lastName = "Doe";
+System.out.println(firstName + " " + lastName);
+Note that we have added an empty text (" ") to create space between firstName and lastName on print.
+
+The concat() method is used to concatenate two strings.
+Example:
+String firstName = "John ";
+String lastName = "Doe";
+System.out.println(firstName.concat(lastName));
+
+Java uses the + operator for both addition and concatenation. Numbers are added. Strings are concatenated.
+
+If you add two numbers, the result will be a number, example:
+int x = 10;
+int y = 20;
+int z = x + y;  // z will be 30
+

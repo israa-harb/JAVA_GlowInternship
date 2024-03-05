@@ -1,0 +1,9 @@
+Java Strings: are used for storing text. A String variable contains a collection of characters surrounded by double quotes. For example:
+//Create a variable of type String and assign it a value
+String greeting = "Hello"
+A String in Java is actually an object, which contain methods that can perform certain operations on strings. The length of a string can be found with the length() method. Example:
+String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+System.out.println("The length of the txt string is: " + txt.length());
+
+There are many string methods available, for example indexOf() (which returns the index of the first occurrence of a specified text in string)
+

@@ -1,0 +1,2 @@
+The Type Casting In Java: the type casting is when you assign a value of one primitive data type to another different type. In Java, there are two types of casting: widening casting and narrowing casting. Starting with widening casting (automatically) which is basically converting a smaller type to a larger type size: byte -> short -> char -> int -> long -> float -> double
+The second kind which is the narrowing casting (manually) which typically means converting a larger type to a smaller size type: double -> float -> long -> int -> char -> short -> byte

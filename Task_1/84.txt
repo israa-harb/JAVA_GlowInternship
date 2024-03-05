@@ -1,0 +1,10 @@
+Public Access modifier: the public access modifier is specified using the keyword public. The public access modifier has the widest scope among all other access modifiers. Classes, methods, or data members that are declared as public are accessible from everywhere in the program. There is no restriction on the scope of public data members. Example:
+public class A 
+{ 
+public void display() 
+    { 
+        System.out.println("PUBLIC CLASS"); 
+    } 
+}
+
+If other programmers use your class, try to use the most restrictive access level that makes sense for a particular member. Use private unless you have a good reason not to. Avoid public fields except for constants.

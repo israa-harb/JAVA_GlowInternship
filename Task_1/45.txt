@@ -1,0 +1,12 @@
+Java Conditions and If Statements: Java supports the usual logical conditions.
+Less than: a < b
+Less than or equal to: a <= b
+Greater than: a > b
+Greater than or equal to: a >= b
+Equal to a == b
+Not Equal to: a != b
+Java has the following conditional statements:
+Use if to execute a code block if a condition is true.
+Use else to execute a code block if the same condition is false.
+Use else if to specify new condition to test, if the first condition is false
+Use switch to specify many alternative blocks of code to be executed

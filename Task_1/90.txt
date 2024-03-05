@@ -1,0 +1,9 @@
+Notes on Interfaces in Java:
+Like abstract classes, interfaces cannot be used to create objects (it is not possible to create an "Animal" object in the MyMainClass).
+Interface methods do not have a body - the body is provided by the "implement" class.
+On implementation of an interface, you must override all of its methods.
+The interface methods are by default abstract and public.
+Interface attributes are by default public, static and final.
+An interface cannot contain a constructor.
+Why And When To Use Interfaces?
+To achieve security; hide certain details and only show the important details of an object.

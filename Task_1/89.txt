@@ -1,0 +1,18 @@
+Interfaces: another way to achieve abstraction in Java, is with interfaces. An interface is a completely "abstract class" that is used to group related methods with empty bodies:
+interface Animal {
+  public void animalSound(); // interface method (doesnt have body)
+  public void run(); // interface method (doesnt have body)
+}
+ 
+To access the interface methods, the interface must be "implemented" by another class with the "implements" keyword. The body of the interface method is provided by the "implement" class:
+// Pig implements the Animal interface
+class Pig implements Animal {
+  public void animalSound() {
+    // body of animalSound() provided 
+    System.out.println("oink");
+  }
+  public void sleep() {
+    // body of sleep() provided 
+    System.out.println("Zzz");
+  }
+}

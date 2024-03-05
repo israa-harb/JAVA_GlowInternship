@@ -1,0 +1,14 @@
+We can also test variables.
+int x = 20;
+int y = 18;
+if (x > y) {
+  System.out.println("x is greater than y");
+}
+In the example above we use two variables, x and y, to test whether x is greater than y. We know that 20 is indeed greater than 18, we print to the screen that "x is greater than y".
+
+The else Statement: use the else statement to specify a block of code to be executed if the condition is false.
+if (condition) {
+  // code to be executed if the condition is true
+} else {
+  // code to be executed if the condition is false
+}

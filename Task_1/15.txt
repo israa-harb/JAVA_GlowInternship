@@ -1,0 +1,9 @@
+Types of recursion:
+Direct recursion: When a function is called within itself directly it is called direct recursion.
+Indirect recursion: Indirect recursion occurs when a function calls another function that eventually calls the original function and it forms a cycle.
+The applications of Recursion:
+Recursion is used in many fields of computer science and mathematics, which includes:
+Searching and sorting algorithms: Recursive algorithms are used to search and sort data structures like trees and graphs.
+Mathematical calculations: factorial, Fibonacci sequence, etc.
+Compiler design: Recursion is used in the design of compilers to parse and analyze programming languages.
+Graphics, Artificial intelligence.

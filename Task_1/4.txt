@@ -1,0 +1,23 @@
+We can access attributes by creating an object of the class.The following example will create an object of the Main class, with the name myObj. We use the x attribute on the object to print its value, for example
+Create object called "myObj" and print the value of x:
+
+public class Main {
+  int x = 5;
+
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    System.out.println(myObj.x);
+  }
+}
+
+We can modify attribute values, for example, if we want to set the value of x to 40:
+
+public class Main {
+  int x;
+
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    myObj.x = 40;
+    System.out.println(myObj.x);
+  }
+}

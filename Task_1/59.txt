@@ -1,0 +1,6 @@
+More on Assignment Operator:
++=, for adding the left operand with the right operand and then assigning it to the variable on the left.
+-=, for subtracting the right operand from the left operand and then assigning it to the variable on the left.
+*=, for multiplying the left operand with the right operand and then assigning it to the variable on the left.
+/=, for dividing the left operand by the right operand and assigning it to the variable on the left.
+%=, for assigning the modulo of the left operand by right operand and assigning it to the variable on the left.

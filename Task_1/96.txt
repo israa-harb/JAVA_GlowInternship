@@ -1,0 +1,2 @@
+The Java LinkedList class is almost identical to the ArrayList. The LinkedList stores its items in "containers." It has a link to the first container and each container has link to next container in the list. To add an element to the list, the element is placed into  new container and that container is linked to one of the other containers in the list.
+The LinkedList class is a collection which can contain many objects of the same type, like ArrayList.The LinkedList class has all of the same methods as the ArrayList class because they both implement the List interface.

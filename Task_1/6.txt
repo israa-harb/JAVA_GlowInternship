@@ -1,0 +1,8 @@
+Java also has a block of code that is called method, which runs only when it is called, just like a function. We can pass data, known as parameters, into a method. They are used to perform certain actions. A method must be declared within a class. It is defined with the name of the method, followed by parentheses. For example:
+public class Main {
+  static void myMethod() {
+    // method is called "myMethod", it is created inside in the class
+    //static: the method belongs to the Main class and not an object of the Main class.
+    //void: it doesn't return a value.
+  }
+}
